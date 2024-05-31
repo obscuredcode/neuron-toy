@@ -1,0 +1,13 @@
+[package]
+name = "neuroml-tools"
+version = "0.1.0"
+edition = "2021"
+authors = [ "mac millan <nmacmil1@jhu.edu>"]
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+serde = { version = "^1.0", features = ["derive"] }
+serde-xml-rs = "0.6.0"
+strum = "0.25.0"
+strum_macros = "0.25.1"
+xml-rs = "0.8.16"

@@ -1,0 +1,24 @@
+[package]
+name = "neuron"
+version = "0.1.0"
+edition = "2021"
+authors = [ "mac millan <nmacmil1@jhu.edu>"]
+license = "MIT OR Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.72"
+egui_node_graph = "0.4.0"
+frame = "0.0.0"
+plotters = "0.3.3"
+rand = "0.8.5"
+serde = { version = "^1.0", features = ["derive"] }
+strum = "0.25.0"
+strum_macros = "0.25.1"
+typed-arena = "2.0.2"
+
+
+
+[workspace]
+members = ["crates/neuroml-tools"]
